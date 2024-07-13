@@ -56,7 +56,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/i_popcorn_movie_update/31')  # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY',  'https://t.me/i_popcorn_movie_update/31')  # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
