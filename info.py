@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "ROX")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/i_popcorn_movie_update/31')
 
 # Others
